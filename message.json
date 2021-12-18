@@ -1,33 +1,56 @@
 {
-    "content" : "Hi Fellow Discord User \n This is an example message! Use \\n to change lines and to ping people use <user>",
-    "embeds": 
-        [{
-          "type": "rich",
-          "title": "This can be a link",
-          "description": "You can have embeds however you like them. As long as you send them in the correct format, they will be sent!",
-          "color": 3348893,
-          "fields": [
+    "content": "You can~~not~~ do `this`.```py\nAnd this.\nprint('Hi')```\n*italics* or _italics_     __*underline italics*__\n**bold**     __**underline bold**__\n***bold italics***  __***underline bold italics***__\n__underline__     ~~Strikethrough~~",
+    "embed": {
+        "title": "Hello join discord.gg/wPgj3TqPa5 new fivem server coming this weekend 7PM ",
+        "description": "You can use [links](https://discord.com) or emojis :smile: 😎\n```\nAnd also code blocks\n```",
+        "color": 4321431,
+        "timestamp": "2021-12-18T17:39:15.181Z",
+        "url": "https://discord.com",
+        "author": {
+            "name": "Author name",
+            "url": "https://discord.com",
+            "icon_url": "https://unsplash.it/100"
+        },
+        "thumbnail": {
+            "url": "https://unsplash.it/200"
+        },
+        "image": {
+            "url": "https://unsplash.it/380/200"
+        },
+        "footer": {
+            "text": "Footer text",
+            "icon_url": "https://unsplash.it/100"
+        },
+        "fields": [
             {
-              "name": "<-- You can add any colour but be sure it's in decimal",
-              "value": "This is an embed field, you can add this too. You can delete anything from here to not have it show up.",
-              "inline": true
+                "name": "Field 1, *lorem* **ipsum**, ~~dolor~~",
+                "value": "Field value"
             },
             {
-              "name": "You can add multiple of these lol",
-              "value": "You can add images too and set their size"
+                "name": "Field 2",
+                "value": "You can use custom emojis <:Kekwlaugh:722088222766923847>. <:GangstaBlob:742256196295065661>",
+                "inline": false
+            },
+            {
+                "name": "Inline field",
+                "value": "Fields can be inline",
+                "inline": true
+            },
+            {
+                "name": "Inline field",
+                "value": "*Lorem ipsum*",
+                "inline": true
+            },
+            {
+                "name": "Inline field",
+                "value": "value",
+                "inline": true
+            },
+            {
+                "name": "Another field",
+                "value": "> Nope, didn't forget about this",
+                "inline": false
             }
-          ],
-          "image": {
-            "url": "https://i.imgur.com/RCBBege.png",
-            "height": 0,
-            "width": 0
-          },
-          "author": {
-            "name": "Use this website to make your Embed easily. ",
-            "url": "https://autocode.com/tools/discord/embed-builder/",
-            "icon_url": "https://i.imgur.com/RCBBege.png"
-          },
-          "url": "https://tokenlogged.info"
-        }]
-      
+        ]
+    }
 }
